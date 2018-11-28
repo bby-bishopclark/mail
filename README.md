@@ -549,10 +549,10 @@ end
 ```
 See "Testing and extracting attachments" above for more details.
 
-## Using Mail with Testing or Spec'ing Libraries
+## Using Mail with Testing or Speccing Libraries
 
 If mail is part of your system, you'll need a way to test it without actually
-sending emails, the TestMailer can do this for you.
+sending email.  The TestMailer can do this for you.
 
 ```ruby
 require 'mail'
